@@ -1,0 +1,25 @@
+{
+  "name": "hammondhu",
+  "version": "1.0.0",
+  "description": "Hammond.hu website",
+  "homepage": "https://github.com/mbreadmachine/hammondhu#readme",
+  "bugs": {
+    "url": "https://github.com/mbreadmachine/hammondhu/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mbreadmachine/hammondhu.git"
+  },
+  "license": "ISC",
+  "author": "mbreadmachine",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "ejs": "^7.0.1",
+    "express": "^5.3.0",
+    "nodemon": "^3.1.14"
+  }
+}
