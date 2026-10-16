@@ -1,0 +1,28 @@
+<nav>
+    <button onclick="page('home')"
+    <% if (selected == "home") {%>
+        <%= "disabled" %>
+    <% } %>
+    >Főoldal</button>
+
+    <button onclick="page('desi')"
+    <% if (selected == "desi") {%>
+        <%= "disabled" %>
+    <% } %>
+    >DESIAUTÓ</button>
+
+    <button onclick="page('music')"
+    <% if (selected == "music") {%>
+        <%= "disabled" %>
+    <% } %>
+    >Zene</button>
+
+    <button onclick="page('pics')"
+    <% if (selected == "pics") {%>
+        <%= "disabled" %>
+    <% } %>
+    >Képek</button>
+</nav>
+<audio src="/Hammond.m4a" id="hammond"></audio>
+<script src="/utils/nav.js"></script>
+<link rel="stylesheet" href="/utils/nav.css">
