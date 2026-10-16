@@ -6,7 +6,7 @@ const navs = {
 }
 
 function page(name) {
-    let hammond = new Audio("/hammond.m4a")
+    let hammond = new Audio("/Hammond.m4a")
     hammond.play()
     hammond.addEventListener("ended", () => {
         navigation.navigate(navs[name])
